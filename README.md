@@ -51,6 +51,7 @@ The goal of this lab was to gain hands-on experience with system administration 
 - Created multiple users and groups
 - Assigned users to appropriate groups
 - Simulated a real-world domain environment
+<img width="758" height="531" alt="Screenshot 2026-03-18 122948" src="https://github.com/user-attachments/assets/66dc3f4d-1ff5-494e-b4c2-2b5199945c21" />
 
 ---
 
@@ -62,6 +63,8 @@ Implemented password policies using Group Policy:
 - Account lockout policies
 
 These settings help protect against unauthorized access and brute-force attacks.
+<img width="755" height="529" alt="Screenshot 2026-03-18 112832" src="https://github.com/user-attachments/assets/79c9ff15-7c74-487e-a5f0-7e9d4fbbaa62" />
+<img width="756" height="534" alt="Screenshot 2026-03-18 121224" src="https://github.com/user-attachments/assets/ae2bf07e-bfb9-4807-a71a-abf8632b77d9" />
 
 ---
 
@@ -77,8 +80,10 @@ This allowed me to observe how the system responds to suspicious authentication 
 
 Used Event Viewer to analyze authentication logs:
 
-- Event ID 4625 → Failed login attempt
-- Event ID 4624 → Successful login
+- Event ID 4625 - Failed login attempt
+- Event ID 4624 - Successful login
+- Event ID 4740 - User account was locked
+<img width="635" height="631" alt="Screenshot 2026-03-18 121436" src="https://github.com/user-attachments/assets/3950974a-58ce-4c65-96e4-66b8ebfb6805" />
 
 ### Key Findings:
 - Multiple failed login attempts were logged during the attack simulation
